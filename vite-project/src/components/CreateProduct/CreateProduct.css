@@ -1,0 +1,75 @@
+#create {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f9f9f9; /* Açık gri arka plan */
+    border-radius: 8px; /* Köşeleri yuvarlat */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Hafif gölge */
+    margin-top: 2em;
+  }
+  
+  .titlee h5 {
+    margin: 0;
+    font-size: 24px;
+    color: #003366; /* Koyu mavi başlık rengi */
+  }
+  
+  label {
+    display: block;
+    margin-top: 15px;
+    font-weight: bold;
+    color: #333; /* Koyu gri metin rengi */
+  }
+  
+  input[type="text"],
+  input[type="number"],
+  input[type="file"] {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ddd; /* Gri sınır */
+    border-radius: 4px; /* Köşeleri yuvarlat */
+    box-sizing: border-box; /* Padding ve border'ı toplam genişliğe dahil et */
+  }
+  
+  input[type="checkbox"] {
+    margin-top: 10px;
+  }
+  
+  button {
+    background-color: #003366; /* Koyu mavi buton arka planı */
+    color: white; /* Beyaz metin */
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 15px;
+  }
+  
+  button:hover {
+    background-color: #002244; /* Üzerine gelindiğinde daha koyu mavi */
+  }
+  
+  button:disabled {
+    background-color: #666; /* Disable durumda gri arka plan */
+    cursor: not-allowed; /* Tıklanamaz gösterimi */
+  }
+  
+  #button {
+    margin-top: 20px;
+  }
+  
+  p {
+    margin-top: 15px;
+    font-size: 16px;
+  }
+  
+  p[style*="color: green"] {
+    color: green;
+  }
+  
+  p[style*="color: red"] {
+    color: red;
+  }
+  

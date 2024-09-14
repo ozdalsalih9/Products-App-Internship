@@ -1,0 +1,7 @@
+/* src/index.css */
+#root {
+    background-color: #dcdcdca3; /* Burada istediğiniz rengi kullanabilirsiniz */
+    margin: 0; /* Sayfanın kenarlarında boşluk bırakmamak için */
+    font-family: Arial, sans-serif; /* Yazı tipi */
+    min-height: 100vh
+}

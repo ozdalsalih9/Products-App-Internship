@@ -1,0 +1,33 @@
+.AdminHeader {
+  display: flex;
+  justify-content:center;
+  align-items: center;
+  background-color: #003366; /* Koyu mavi arka plan */
+  color: white; /* Beyaz metin rengi */
+  padding: 10px 20px; /* Yatay ve dikey boşluk */
+  
+}
+
+.title h5 {
+  margin: 0 auto; /* Başlık etrafındaki varsayılan boşlukları kaldır */
+
+}
+
+.Link {
+  color: #e0e0e0; /* Açık gri renk */
+  text-decoration: none; /* Alt çizgi olmadan metin */
+  margin: 0 15px; /* Her iki tarafta boşluk */
+  font-size: 16px; /* Yazı boyutu */
+  transition: background-color 0.3s, color 0.3s; /* Geçiş efekti ekleme */
+  padding: 5px 10px; /* İç boşluk ekleme */
+  border-radius: 4px; /* Köşeleri yuvarlama */
+}
+
+.Link:hover {
+  color: #ffffff; /* Üzerine gelindiğinde beyaz renk */
+  background-color: rgba(255, 255, 255, 0.2); /* Hafif beyaz arka plan rengi */
+}
+
+.Link:active {
+  color: #c0c0c0; /* Tıklama anında renk */
+}

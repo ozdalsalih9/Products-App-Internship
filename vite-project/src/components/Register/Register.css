@@ -1,0 +1,69 @@
+#RegisterForm {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f9f9f9; /* Açık gri arka plan */
+  border-radius: 8px; /* Köşeleri yuvarlat */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Hafif gölge */
+  margin-top: 2em;
+}
+
+.title h4 {
+  margin: 0;
+  font-size: 24px;
+  color: #003366; /* Koyu mavi başlık rengi */
+  text-align: center;
+}
+
+label {
+  display: block;
+  margin-top: 15px;
+  font-weight: bold;
+  color: #333; /* Koyu gri metin rengi */
+}
+
+#RegisterForm input[type="text"],
+#RegisterForm input[type="email"],
+#RegisterForm input[type="password"] {
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+  border: 1px solid #ddd; /* Gri sınır */
+  border-radius: 4px; /* Köşeleri yuvarlat */
+  box-sizing: border-box; /* Padding ve border'ı toplam genişliğe dahil et */
+}
+
+#RegisterForm button {
+  background-color: #003366; /* Koyu mavi buton arka planı */
+  color: white; /* Beyaz metin */
+  border: none;
+  padding: 10px 20px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+  margin-top: 15px;
+  width: 100%;
+}
+
+#RegisterForm button:hover {
+  background-color: #002244; /* Üzerine gelindiğinde daha koyu mavi */
+}
+
+#RegisterForm button:disabled {
+  background-color: #666; /* Disable durumda gri arka plan */
+  cursor: not-allowed; /* Tıklanamaz gösterimi */
+}
+
+p {
+  margin-top: 15px;
+  font-size: 16px;
+  text-align: center;
+}
+
+p[style*="color: green"] {
+  color: green;
+}
+
+p[style*="color: red"] {
+  color: red;
+}

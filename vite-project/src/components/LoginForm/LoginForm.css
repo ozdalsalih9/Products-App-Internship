@@ -1,0 +1,115 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  box-sizing: border-box;
+}
+
+  
+  .LoginForm {
+    width: 100%;
+    max-width: 400px;
+    margin:  auto;
+    padding: 20px;
+    background-color: #ffffff;
+    border: 1px solid #ddd;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.);
+    border-radius: 4px; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f4f4f4;
+    
+  }
+
+  
+  
+  .form-container h4 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  .form-group {
+    margin-bottom: 20px;
+    position: relative;
+  }
+  
+  .form-group label {
+    position: absolute;
+    top: -14px;
+    left: 10px;
+    background-color: #fff;
+    padding: 0 5px;
+    font-size: 14px;
+    color: #333;
+  }
+  
+  .form-group input {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  
+  #button {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  #button1, #button2 {
+    padding: 10px;
+    font-size: 16px;
+    color: #fff;
+    background-color: #007bff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    text-align: center;
+  }
+  
+  #button1:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+  }
+  
+  #noaccount {
+    font-size: 14px;
+    text-align: center;
+    color: #007bff;
+    cursor: pointer;
+    text-decoration: none;
+    display: block;
+  }
+  
+  #noaccount:hover {
+    text-decoration: underline;
+  }
+  
+  hr {
+    border: 0;
+    height: 1px;
+    background: #ddd;
+    margin: 0;
+  }
+
+  .logo {
+    display: flex;
+    justify-content: center; /* Ortalar */
+    align-items: center; /* Dikeyde ortalar */ 
+    margin-bottom: 80px; /* Alt boşluk */
+    font-size: 36px; /* Başlık boyutu */
+    color: #003366; /* Koyu mavi renk */
+    margin-top: 0px; /* Varsayılan boşlukları kaldır */
+    font-family: 'Arial', sans-serif; /* Yazı tipi */
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1); /* Hafif gölge */
+  }
+  
+ 
+  
+  

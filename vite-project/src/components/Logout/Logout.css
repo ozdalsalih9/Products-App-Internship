@@ -1,0 +1,51 @@
+.logout {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #ffffff; /* Beyaz arka plan */
+    border-radius: 8px; /* Köşeleri yuvarlat */
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2); /* Hafif gölge */
+    text-align: center; /* İçerikleri ortala */
+    margin-top: 3em;
+  }
+  
+  h3 {
+    color: #333; /* Koyu gri başlık rengi */
+    margin: 20px 0; /* Üst ve alt boşluk */
+    font-size: 18px;
+  }
+  
+  .btn {
+    display: flex;
+    justify-content: center;
+    gap: 10px; /* Butonlar arasında boşluk */
+    margin-top: 20px; /* Üst boşluk */
+  }
+  
+  .btn button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .btn-success {
+    background-color: #28a745; /* Yeşil arka plan */
+    color: white; /* Beyaz metin rengi */
+  }
+  
+  .btn-success:hover {
+    background-color: #218838; /* Üzerine gelindiğinde daha koyu yeşil */
+  }
+  
+  .btn-danger {
+    background-color: #dc3545; /* Kırmızı arka plan */
+    color: white; /* Beyaz metin rengi */
+  }
+  
+  .btn-danger:hover {
+    background-color: #c82333; /* Üzerine gelindiğinde daha koyu kırmızı */
+  }
+  
